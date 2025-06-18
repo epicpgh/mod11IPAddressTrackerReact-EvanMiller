@@ -4,22 +4,22 @@ import './TaskItem.css'
 
 
 
-const TaskItem: React.FC<TaskItemProps> = ({ tasks, onStatusChange, onDelete }) => {
+const TaskItem: React.FC<TaskItemProps> = ({ task, onStatusChange, onDelete }) => {
   const handleStatusChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
-    onStatusChange(tasks.id, event.target.value as any)
+    onStatusChange(task.id, event.target.value as any)
   }
 
   const handleDelete = () => {
-    onDelete(tasks.id)
+    onDelete(task.id)
   }
 
   return (
     <div>
-        <h3>{tasks.title}</h3>
-        <p>{tasks.description}</p>
-        <p>{tasks.dueDate}</p>
-        <p>{tasks.status}</p>
-        <p>{tasks.priority}</p>
+        <h3>{task.title}</h3>
+        <p>{task.description}</p>
+        <p>{task.dueDate}</p>
+        <p>{task.status}</p>
+        <p>{task.priority}</p>
     </div>
  )}
 

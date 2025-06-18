@@ -4,7 +4,7 @@ import TaskItem from './components/TaskItem/TaskItem';
 
 import TaskList from './components/TaskList/TaskList';
 import TaskFilter from './components/TaskFilter/TaskFilter';
-import { Task, TaskStatus } from './types';
+import { Task, TaskStatus,  } from './types';
 
 import './App.css';
 
