@@ -1,20 +1,11 @@
-import React from "react";
-
-import { TaskListProps } from "../../types";
-
-import TaskItem from "../TaskItem/TaskItem";
-
-
-import React from "react";
-import { TaskListProps } from "../../types";
-import TaskItem from "../TaskItem/TaskItem";
+import React from 'react';
+import TaskItem from '../TaskItem/TaskItem';
+import { TaskListProps } from '../../types';
 
 const TaskList: React.FC<TaskListProps> = ({ tasks, onStatusChange, onDelete }) => {
-  if (tasks.length === 0) return <p>No tasks available.</p>;
-
   return (
-    <div className="task-list">
-      {tasks.map((task) => (
+    <div>
+      {tasks.map(task => (
         <TaskItem 
           key={task.id} 
           task={task} 
