@@ -1,0 +1,27 @@
+
+
+
+.info-card {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    position: relative ;
+    z-index: 10;
+}
+
+.info-item{
+    color: gray;
+    font-size: .75rem;
+    margin: 0;
+    color: #2c2c2c;
+}
+
+.info-item p {
+    text-align: center;
+    padding: 2rem;
+    color: #333;
+}

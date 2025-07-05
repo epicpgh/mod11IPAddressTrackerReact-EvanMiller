@@ -47,7 +47,11 @@ const handleSearch = async (ip ='') => {
         error={error}
       />
       <MapView loaction={ipData?.location} loading={loading} />
-
+<Header
+  ipQuery={ipQuery}
+  setIpQuery={setIpQuery}
+  onSearch={() => handleSearch(ipQuery)}
+/>
 
       
     

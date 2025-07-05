@@ -1,0 +1,28 @@
+
+
+.header{
+    background-size: cover;
+    background-position: center;
+    padding: 2rem 1 rem;
+    text-align: center;
+    color: white;
+}
+
+.header-title{
+    font-size: 2 rem;
+    margin-bottom: 1rem;}
+
+
+.input-group{
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.input-group button:hover {
+  background-color: #333;
+  color: white;
+}
+
+
