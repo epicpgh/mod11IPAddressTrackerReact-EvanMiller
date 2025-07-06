@@ -1,7 +1,7 @@
 
 
 import './Header.css';
-import bgImage from '../assets/pattern-bg.png';
+import bgImage from '../assets/design/images/pattern-bg-mobile.png';
 
 export default function Header({ipQuery, setIpQuery, onSearch}) {
 

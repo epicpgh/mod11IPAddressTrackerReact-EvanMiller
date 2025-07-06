@@ -3,11 +3,11 @@ import Header from './components/Header';
 
 import MapView from './components/MapView';
 import InfoCard from './components/InfoCard';
-import {fetchIPData} from './utils/api/fetchData';
+import {fetchIPData} from './api/fetchData';
 
 
 
-import './App.css'
+import './styles/App.css'
 
 
 
