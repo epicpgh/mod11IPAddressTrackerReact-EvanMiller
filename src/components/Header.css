@@ -1,28 +1,39 @@
-
-
-.header{
-    background-size: cover;
-    background-position: center;
-    padding: 2rem 1 rem;
-    text-align: center;
-    color: white;
-}
-
-.header-title{
-    font-size: 2 rem;
-    margin-bottom: 1rem;}
-
-
-.input-group{
-    max-width: 600px;
-    margin: 0 auto;
-    display: flex;
-    border-radius: 10px;
-    overflow: hidden;
-}
-.input-group button:hover {
-  background-color: #333;
+.header {
+  background: linear-gradient(to right, #4b6cb7, #182848);
   color: white;
+  padding: 2rem;
+  text-align: center;
+  position: relative;
 }
+
+.header h1 {
+  margin: 0 0 1rem 0;
+  font-size: 2rem;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.search-container input {
+  flex: 1;
+  padding: 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px 0 0 8px;
+}
+
+.search-container button {
+  padding: 1rem;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+}
+
 
 
