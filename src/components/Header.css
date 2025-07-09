@@ -4,18 +4,14 @@
   padding: 2rem;
   text-align: center;
   position: relative;
-}
-
-.header h1 {
-  margin: 0 0 1rem 0;
-  font-size: 2rem;
+  z-index: 5;
 }
 
 .search-container {
   display: flex;
   justify-content: center;
   max-width: 600px;
-  margin: 0 auto;
+  margin: 1rem auto 0 auto;
 }
 
 .search-container input {
