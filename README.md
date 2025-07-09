@@ -1,12 +1,32 @@
-# React + Vite
+# 🌐 IP Address Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application that allows users to enter an IP address or domain and view geolocation information such as IP, location, timezone, and ISP — displayed in a floating info card over an interactive map.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚧 Project Status
+
+> ⚠️ Currently under development — core layout is in place, but functionality is incomplete. API integration and map rendering may not work as expected.
+
+---
+
+## 🛠 Features (Planned / Implemented)
+
+- [x] Responsive header with IP/domain search input
+- [x] Floating info card to display IP details
+- [x] Leaflet map integration
+- [ ] Fetch geolocation data using [IPify API](https://geo.ipify.org/)
+- [ ] Error handling and loading states
+- [ ] User's IP loaded on initial page load
+
+---
+
+## 🧱 software used
+
+- React
+- React Hooks
+- React Leaflet + Leaflet
+- CSS (custom styles)
+- IPify Geolocation API
